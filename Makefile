@@ -38,11 +38,11 @@ O_FILES = $(abspath $(addprefix $(ODIR)/, $(CPP_FILES:.cpp=.o))) $(abspath $(add
 
 VERSION := 0.0
 ifeq ($(UNAME), Linux)
-	BUILD := minesweeper
+	BUILD := lightbike
 	DEFINE_PREFIX = -
 	OS_CLEAR = clear
 else
-	BUILD := minesweeper.exe
+	BUILD := lightbike.exe
 	DEFINE_PREFIX = -
 	OS_CLEAR = cls
 endif
